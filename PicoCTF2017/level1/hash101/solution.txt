@@ -1,0 +1,12 @@
+1. convert bin to ascii
+	hex(int('<binary>', 2))[2:].decode('hex')
+2. convert ascii to hex & decimal
+	'string'.encode('hex')
+	int('0x'+<string>.encode('hex'), 16)
+3. find a string with sum of all characters that modulo 16 equals to n
+	try in python
+		sum([ord(c) for c in 'hello']%16)
+	enter the one with the correct n
+4. find the value that matches the MD5 hash
+	find in google for hash crack MD5
+	get the match and the flag

@@ -1,0 +1,2 @@
+after getting to the directory
+> ./raw2hex | cut -d ':' -f2 | xxd -p

@@ -1,0 +1,12 @@
+we are going to use the bash script in this challenge
+
+script.sh:
+#! /bin/bash
+
+for i in {0..4096}
+do 
+	echo -n $i	# -n: don't include a newline
+	/problems/884bb3c8fc9e0dbccc09787c1b016cd4/bashloop $i
+done
+
+

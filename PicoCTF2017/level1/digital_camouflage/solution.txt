@@ -1,0 +1,11 @@
+a .pcap file
+> wireshark *.pcap
+
+check the http (hyper text)
+right-click -> follow -> TCP stream
+
+pwd found, looked like a url encode
+
+after url decode, looked like a base64 encode
+
+> echo "base64 code" | base64 -d > flag.txt

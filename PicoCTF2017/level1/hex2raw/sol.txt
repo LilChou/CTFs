@@ -1,0 +1,4 @@
+get to the directory first
+string = '9b0f7b43804d4abd6f7e1bbe515c55d5'
+
+> echo '9b0f7b43804d4abd6f7e1bbe515c55d5' | xxd -r -p | ./hex2raw

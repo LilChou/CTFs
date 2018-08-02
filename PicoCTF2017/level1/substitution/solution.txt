@@ -1,0 +1,3 @@
+go to the website quipqiup.com
+paste the ciphertext
+get the flag
