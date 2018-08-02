@@ -1,0 +1,9 @@
+if met a *.part file, it might because you haven't downloaded the entire file yet, some solution:
+
+1. Redownload the file
+2. Or use the command (referred)
+	> wget -O <pwd>/<wanted_file_name> "link_of_the_file_location"
+	eg. wget -O /home/yjchou/Downloads/CTFs/GoogleCTF2018/firmware/firmware.zip "https://storage.googleapis.com/gctf-2018-attachments/9522120f36028c8ab86a37394903b100ce90b81830cee9357113c54fd3fc84bf"
+
+	downloads the file from the location to the firmware directory
+		and name it firmware.zip 

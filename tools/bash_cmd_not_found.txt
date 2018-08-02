@@ -1,0 +1,15 @@
+if the normal commands return the error
+
+bash: cmd: command not found
+
+check the path
+> echo $PATH
+
+> /bin/which
+if no returns, means the file is there, but the path is wrong
+
+> PATH=/bin:/usr/bin
+OR
+> export PATH=/bin:/usr/bin:$PATH
+
+then we can use the commands as usual

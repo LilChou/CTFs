@@ -1,0 +1,7 @@
+go to /tool/wierd_cmd
+
+then
+
+> find / -name Flag.txt
+> cat /dir/Flag.txt
+

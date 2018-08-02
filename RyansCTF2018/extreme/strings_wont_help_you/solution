@@ -1,0 +1,16 @@
+> ./program
+found that we can't open the /root/md5.hash
+
+> sudo -l
+found ltrace can be run without pwd
+
+> sudo ltrace ./program
+found the hash, use hash crack website to crack it
+get the password: bigbangtheory1
+
+> sudo ./program
+> bigbangtheory1
+
+the program opens the Flag.txt and gives us the flag
+
+

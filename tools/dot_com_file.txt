@@ -1,0 +1,11 @@
+A *.com file must be open via dosbox (need to be download in advance)
+
+in the dosbox, we can use the dos debugger to check the dos file
+
+or just simply run the *.com file
+	> *.com 
+	> *.com > asdf
+
+
+
+and see what happened 

@@ -1,0 +1,7 @@
+check the bash_cmd_not_found.txt in tools
+
+after resetting all the paths correctly
+
+find / -name Flag.txt
+
+cat /path/Flag.txt

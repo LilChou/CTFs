@@ -1,0 +1,6 @@
+tried gdb, ltrace, strace, strings
+
+in 
+> strings program
+
+we found a line says the flag is transumption

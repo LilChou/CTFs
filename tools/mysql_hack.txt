@@ -1,0 +1,4 @@
+> mysqladmin -u root password <wanted password>
+> mysql -u root -p
+	> <the password you set>
+

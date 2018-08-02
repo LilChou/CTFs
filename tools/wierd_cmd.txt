@@ -1,0 +1,10 @@
+if the command acts wierd
+
+check the alias
+
+> alias
+
+if the cmd is not linked to the correct path
+
+> alias ls=/bin/ls
+> alias find=/usr/bin/find
