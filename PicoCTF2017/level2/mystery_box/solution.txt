@@ -1,0 +1,5 @@
+This seems to be a enigma emulator
+
+So find an emulator online: http://enigma.louisedade.co.uk/enigma.html
+
+enter what's in the note
