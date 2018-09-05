@@ -1,0 +1,3 @@
+# usage: cat flag.txt | caesar 7
+VMY{mltkvbiaxkoltlnulmbmnmohgvoiaxk}
+VMY{vtxltkvbiaxkbltlnulmbmnmbhgvbiaxk}

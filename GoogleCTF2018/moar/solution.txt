@@ -1,0 +1,7 @@
+use "!" exclamation for rce (remote code execution)
+
+! cat home directory scripts
+
+flag: CTF{SOmething-CATastr0phic}
+
+
