@@ -1,0 +1,25 @@
+> r2 gatekeeper
+> aaaa
+> s main
+> pdf
+
+
+found some suspicious strings
+
+0n3_W4rM
+zLl1ks_d4m_T0g_I
+
+
+The first one is the username after we tried it
+and the second is the reverse of I_g0T_m4d_sk1lLz
+
+then get back to the terminal
+
+> ./gatekeeper 0n3_W4rM I_g0T_m4d_sk1lLz
+
+and we got the flag: CTF{I_g0T_m4d_sk1lLz}
+
+
+
+
+
