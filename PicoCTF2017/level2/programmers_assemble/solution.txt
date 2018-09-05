@@ -1,0 +1,12 @@
+In main:set 	eax=??
+		ebx=0
+		ecx=7
+In loop:	ebx += ecx
+		eax -= 1
+when eax==0, go to fin
+	if 	0x97c9==ebx
+	ret	eax = 1
+
+> python
+> hex(0x97c9 / 7) = 0x15af
+

@@ -1,0 +1,26 @@
+In the .c file we saw that the input will be run.
+
+So in order to let the input value become the win function
+check the location of the function
+> readelf -s guess_num 
+ 0x804852b
+
+this is going to be right shift 4 bits
+so the input should be the addr left shift 4 bits
+
+but we then found the number to overflow
+the max int is 2147483647
+but the num after shifted is 2152223408 > 2147483647
+
+so we should flip all bits and add one to get the 2 complement num
+of the target
+
+thus
+
+python
+bin(2152223408).replace('1','t').replace('0','1').replace('t','0')
+
+(result+1) * (-1) = ans = -2142743888
+
+
+

