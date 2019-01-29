@@ -1,0 +1,14 @@
+when we check the strings, we found that there are some suspicious name
+flag.pngPK and nottheflag.pngPK
+
+
+PK is zip archive 
+use hexeditor to edit the file
+
+edit the first 4 bytes to the regular zip archive file signature
+press ctrl+x to save and exit
+
+then unzip the file to get the right flag.png
+
+
+

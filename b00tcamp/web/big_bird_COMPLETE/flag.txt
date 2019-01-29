@@ -1,0 +1,1 @@
+b0ctf{i_get_excited_about_flags!}

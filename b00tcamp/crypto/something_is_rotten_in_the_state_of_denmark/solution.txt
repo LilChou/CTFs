@@ -1,0 +1,21 @@
+hint1:	something is rotten in the state of denmark
+hint2:	project gutenberg
+hint3:	use the txt file
+
+
+in the code, we found that the counter char is adding, and char is 1 byte, 256bit, so counter repeats every 256 blocks
+
+p1 XOR s1 = c1
+.
+.
+.
+p255 XOR s255 = c255
+p256 XOR s1 = c256
+
+
+so use project gutenburg
+
+
+
+
+

@@ -23,7 +23,7 @@ int main(int argc, char** argv) {
     printf("Give me something to say!\n");
     fflush(stdout);
     fgets(buffer, BUF_LEN, stdin);
-    puts(buffer);
+    printf(buffer);
 
     int not_secret;
     printf("Now tell my secret in hex! Secret: ");

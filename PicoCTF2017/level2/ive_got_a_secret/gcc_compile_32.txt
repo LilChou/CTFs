@@ -1,0 +1,10 @@
+
+
+
+
+> gcc -g -m32 c_file.c -o output
+
+-g: debug symbol
+-m32: 32 bit binary
+
+
