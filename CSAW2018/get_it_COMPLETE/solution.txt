@@ -1,0 +1,5 @@
+Either with the way in the "get_shell.sh"
+
+or we can store the input with \x00 into a file 
+then read the file as the input to the program!
+

@@ -1,0 +1,7 @@
+This is a LDAP injection.
+Check the sample on the 'payloadsallthething' github
+
+search: *)(uid=*))(|(uid=*
+
+and the flag will appear at the bottom of the query page
+
