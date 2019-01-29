@@ -1,0 +1,14 @@
+use john to unshadow a password
+
+> sudo /usr/sbin/unshadow passwd shadow > tmp
+> john tmp
+---------------------or------------------------
+> john shadow -show
+
+and get a password with the corresponding account
+
+account: root
+password:kissme
+
+
+flag:picoCTF{J0hn_1$_R1pp3d_1b25af80}  

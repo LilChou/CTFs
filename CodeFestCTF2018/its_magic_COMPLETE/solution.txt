@@ -1,0 +1,12 @@
+After using hexedit to see the hex of the file
+
+we saw author and some metadata, so let's assume it's a jpg file
+
+use hexedit to modify the hex of the file
+
+change the first few bytes to 
+FF D8 FF E0 00 10 4A 46
+
+Ctrl+X to save and quit
+
+rename the file to .jpg and open it

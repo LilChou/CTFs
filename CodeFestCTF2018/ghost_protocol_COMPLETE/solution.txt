@@ -1,0 +1,16 @@
+open 2 terminal and both connect to the server
+
+in the source code we can see that the flag will be given if
+the seconde received input is equal to the str(enc.encrypt(val))
+
+and there is another place where we can get a str(enc.encrypt(nounce))
+
+so at the first connection, input name1 nounce1
+and received val1 and target1
+
+at the second connection, input name2 target1
+and received val2 and str(enc.encrypt(target1))
+
+then return the str(enc.encrypt(target1)) back to the first connection
+
+and the first connection will spit out the flag!

@@ -1,0 +1,16 @@
+Use jstego to get the hidden mp3 file
+
+open the mp3 file with audio visualizer
+
+check the layer of spectrogram
+
+the flag is shown
+
+----------------------------------------------
+
+rabbit hole
+
+xor two images
+and the output image is just a troll image
+nothing else
+

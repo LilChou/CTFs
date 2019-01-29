@@ -1,0 +1,12 @@
+Inside the wireshark, we can see that there is http get request
+to get the flag.jpg, but the result are pieces.
+
+click file -> Export Objects -> http
+
+and save them into a file
+
+> tcpflow -r <file>.pcap
+
+> foremost thunder.pcap
+and get the output, the jpg is found inside the output folder
+
